@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 import sys
 from lists_to_numbers import nums
-from fact2 import *
+from fact3 import *
 f = open(sys.argv[1], 'r')
 val = []
 for x in f:
 	val.append(int(x))
 for i in val:
-	fact2(i)
+	fact3(i)
